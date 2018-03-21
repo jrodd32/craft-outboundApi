@@ -1,0 +1,24 @@
+{
+  "name": "doeanderson/outbound",
+  "description": "Plugin to integrate the Outbound event API into Craft CMS",
+  "version": "0.0.1",
+  "type": "craft-plugin",
+  "minimum-stability": "dev",
+  "require": {
+    "craftcms/cms": "^3.0.0-RC1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ns\\prefix\\": "src/"
+    }
+  },
+  "support": {
+    "email": "digital@doeanderson.com"
+  },
+  "extra": {
+    "handle": "craft-outbound-api",
+    "name": "Craft Outbound API",
+    "developer": "Jerrod Long",
+    "developerUrl": "https://jerrodlong.com"
+  }
+}
