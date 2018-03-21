@@ -1,5 +1,5 @@
 {
-  "name": "doeanderson/outbound",
+  "name": "doeanderson/craft-outbound-api",
   "description": "Plugin to integrate the Outbound event API into Craft CMS",
   "version": "0.0.1",
   "type": "craft-plugin",
