@@ -1,17 +1,19 @@
 <?php
 
-namespace App;
+namespace Plugins\Doeanderson\Outbound;
 
 use SoapClient;
 
-class OutboundAPI
+class OutboundAPI extends \craft\base\Plugin
 {
   /**
    * Create a new SOAP interface instance
    * @return void
    */
-  public function __construct()
+  public function init()
   {
+    parent::init();
+    
     $this->serviceUrl = 'https://omnc.outboundsoftware.com/api45/Service1.asmx?WSDL';
     try {
       $this->outboundApi = new SoapClient($this->serviceUrl);
